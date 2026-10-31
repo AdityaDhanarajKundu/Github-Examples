@@ -17,5 +17,5 @@ jobs:
       - name: Run a one-line script
         run: echo "Hello from a self-hosted runner!"
       - name: Print Username
-        shell: Bash
+        shell: bash
         run : whoami  
